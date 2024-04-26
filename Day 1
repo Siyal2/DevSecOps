@@ -1,0 +1,45 @@
+💻 Here's a recap of what I learned on my Day 1 of DevSecOps :- 
+
+1. Installed Git using yum and dnf package managers:
+   - yum install git
+   - dnf install git
+   - sudo dnf install git
+   - sudo yum install git
+
+2. Cloned a repository and explored directories:
+   - git clone https://github.com/krishnaacharyaa/wanderlust.git
+   - cd wanderlust
+   - ls
+
+3. Experimented with file attributes using chattr:
+   - Set immutable attribute on a file or directory:
+     - chattr +i frontend
+   - Removed immutable attribute:
+     - chattr -i frontend
+
+4. Explored other file operations:
+   - Created files:
+     - touch testfile
+     - touch testtfile
+   - Removed a directory and its contents:
+     - rm -r file1
+
+🔒 Additionally, delved into DevSecOps concepts, blending development, operations, and security practices seamlessly throughout the software development lifecycle. DevSecOps ensures security is integrated into every stage, fostering a culture of continuous security improvement. 💡 Exciting times ahead in the world of tech! #Linux #DevOps #Security #DevSecOps #ContinuousIntegration #ContinuousDeployment
+
+
+The Command i used using chattr are :- 
+
+1. chattr +i frontend
+2. sudo chattr +i frontend
+3. chattr -i frontend
+4. sudo chattr -i frontend
+5. lsattr
+6. ls
+7. touch testfile
+8. touch testtfile
+9. rm -r file1
+10. sudo rm -r file1
+11. touch testtfile
+12. sudo chattr +i backend
+13. sudo chattr -i backend
+14. lsattr
